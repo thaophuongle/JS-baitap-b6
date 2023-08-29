@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container">
+        <h2>Tìm số nguyên dương nhỏ nhất sao cho 1 + 2 + … + n > 10000</h2>
+        <div id="bai1Result"></div>
+
+        <br><br><br>
+        <h2>Tính S(n) = x + x^2 + x^3 + … + x^n</h2>
+        <div class="form-group">
+          <input type="number" name="" id="soX" class="form-control" placeholder="Nhập vào số x" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+            <input type="number" name="" id="soN" class="form-control" placeholder="Nhập vào số n" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-primary" type="button" onclick="calculateHandle()">Tính</button>
+        <div id="bai2Result"></div>
+
+        <br><br><br>
+        <h2>Tính giai thừa của 1 số n</h2>
+        <div class="form-group">
+            <input type="number" name="" id="soNguyen" class="form-control" placeholder="Nhập vào số n" aria-describedby="helpId">
+        </div>
+        <button class="btn btn-primary" type="button" onclick="tinhGiaiThua()">Tính</button>
+        <div id="bai3Result"></div>
+
+        <br><br><br>
+        <h2>In 10 thẻ div</h2>
+        <div>
+            <button class="btn btn-primary" type="button" onclick="inTheDiv()">In thẻ</button>
+        </div>
+        <div id="bai4Result"></div>
+        <br><br><br>
+      <h2>Số nguyên tố từ 1 tới giá trị của n</h2>
+      <div class="form-group">
+        <input type="number" name="" id="number" class="form-control" placeholder="Nhập vào số n" aria-describedby="helpId">
+    </div>
+    <button class="btn btn-primary" type="button" onclick="inSoNguyenTo()">In số</button>
+    <div id="bai5Result"></div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
